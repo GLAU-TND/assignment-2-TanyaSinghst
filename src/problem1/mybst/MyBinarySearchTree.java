@@ -13,4 +13,8 @@ public class MyBinarySearchTree {
     TreeNode root;
     int mlevel = 0;
     int c = 0;
+
+    public MyBinarySearchTree() {
+        this.root = root;
+    }
 }
