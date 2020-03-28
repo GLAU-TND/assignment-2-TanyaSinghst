@@ -24,5 +24,13 @@ public class MyLinkedList {
         first = second;
     }
 
+    public void display() {
+        var current = first;
+        while (current != null) {
+            System.out.println(current.getData());
+            current = current.getNext();
+        }
+    }
+
 
 }
