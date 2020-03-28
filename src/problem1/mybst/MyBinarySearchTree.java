@@ -17,5 +17,4 @@ public class MyBinarySearchTree {
     public MyBinarySearchTree() {
         this.root = root;
     }
-
 }
