@@ -38,4 +38,8 @@ public class MyBinarySearchTree {
                 parent.setRight(newnode);
         }
     }
+
+    public int getMlevel() {
+        return mlevel;
+    }
 }
